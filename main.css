@@ -1,0 +1,82 @@
+
+
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;}
+
+/* Pozícionálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 100vh;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.profile-image {
+  margin-top: -70px;
+}
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+body {
+  background: url('https://i.imgur.com/ArRZSr4.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+img {
+  padding: 1px;
+  background-color: #566;
+}
+.content {
+  border-top: 2px solid hsla(0, 0%, 30%, .8);
+}
+img:hover {
+  transform: scale(1.1);
+  filter:drop-shadow(8px 8px 10px blue);
+}
+.links i:hover{
+  transform: scale(1.1);
+  filter:drop-shadow(8px 8px 10px blue);
+}
+head, body{
+  font-family:Lora, Arial, Helvetica, sans-serif;
+}
